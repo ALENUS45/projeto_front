@@ -1,0 +1,44 @@
+.centrado-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.imagem {
+  text-align: center;
+}
+
+.imagem img {
+  width: 200px;
+  height: auto;
+}
+
+.informacoes {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.botao {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container-botoes {
+  margin-bottom: 10px;
+}
+
+.container-busca {
+  margin-top: 20px;
+}
